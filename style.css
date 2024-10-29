@@ -1,0 +1,38 @@
+.skills-background {
+    background-color: #4E4FEB;
+}
+
+.projects-background {
+    background-color: #000000;
+}
+
+.programming-background {
+    background-color: #edd2b5;
+}
+
+.animated-background {
+	background: linear-gradient(-45deg, #000000, #161616, #161616, #000000);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.btn-primary {
+    background-color: #4E4FEB;
+    border-color: #4E4FEB;
+}
+
+.card-footer {
+	border-top: 0;
+}
